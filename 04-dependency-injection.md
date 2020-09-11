@@ -2,14 +2,19 @@
 Dependency Injection là một kiểu của Inversion of Control (IoC), là một kỹ thuật giảm thiểu sự phụ thuộc của các đối tượng trong một project của mình. 
 Cho phép các thành phần phụ thuộc (các thành phần khác, các service trong chương trình) được inject (tiêm) trực tiếp từ container vào một constructor (hàm khởi dựng) hoặc một thuộc tính công khai (public properties) của một class phụ thuộc vào chúng.
 Ta có thể kết hợp hiểu quả kỹ thuật DI cùng với Mock để test các method cần làm việc với database như thêm, sửa, xóa, filter data.
+
 Cấu trúc source code:
+
 ![](./images/03_DI01.png)
+
 Tầng core: 
 - Chứa các entity model
 - Định nghĩa interface
+
 Tầng infra:
 - Chứa các repo xử lý logic
 - DB context tương tác với database
+
 Để thực hiện viết unit test ta tạo một class Vitual DbContext extend từ DBContext.
 ```sh
 public VitualRestaurantContext() : base("name=RestaurantAppConnectionString")

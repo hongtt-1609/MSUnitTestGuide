@@ -1,3 +1,4 @@
+# Mock Object
 Trên thực tế, các function thường phức tạp hơn ví dụ trên rất nhiều, kết hợp lồng ghép, goi tới xử lý của function khác. Lúc này để viết test method, ta thường sử dụng Mock Object.
 Vậy mock object là gì?
 **Mock object (MO)** là một đối tượng ảo, mô phỏng các tính chất và hành vi giống hệt như đối tượng thực được truyền vào bên trong khối mã đang vận hành nhằm kiểm tra tính đúng đắn của các hoạt động bên trong.
@@ -11,7 +12,9 @@ MO được sử dụng trong các trường hợp sau:
 Đối với những function phức tạp hơn, phải gọi đến một function khác để xử lý, ta kết hợp với mock object để thực hiện unit test.
 # 1.Cài đặt Moq
 Ta cần cài đặt **Moq** từ Nuget để sử dụng mock object.
+
 ![](./images/02_Mock01.png)
+
 # 2. Sample
 Ta viết unit test cho function HappyWomanday, trong function này có gọi đến function IsFemaleMember, kiểm tra xem member có phải giới tính là nữ hay không.
 ```sh
@@ -78,7 +81,9 @@ Test method:
 
 ```
 Ở đây, ta sử dụng mock để giả lập kết quả trả về cho function IsFemaleMember theo data được set.
+
 ![](./images/02_Mock02.png)
+
 **Moq** cung cấp một số method để xác nhận rằng các kỳ vọng đã được đáp ứng.
 - Verify(): Xác minh rõ ràng từng kỳ vọng, ví dụ:
 	- mockMem.Verify(m => m.IsFemaleMember(It.IsAny<Member>()));

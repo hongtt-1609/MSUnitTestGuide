@@ -6,13 +6,19 @@ Tại solution chứa project code ta tạo thêm thêm project test theo các b
 - 3: trong danh sách, chọn Unit Test Project.
 - 4: Trong Name box, đặt tên cho project, và chọn OK.
 - 5: Trong test project, add reference đến project code (project bạn muốn viết Unit test) trong solution.
+
 ![](./images/01_MSUnitTest01.png)
+
 # b.Tạo test class
 - Trong project test , chuột phải chọn **Add**, chọn **New Item** , Chọn tab **Test**, chọn **Unit Test**.
 - Đặt tên file unit test tương ứng với class, hoặc function bạn đang muốn test ví dụ: Test cho class Payment chúng ta đặt tên tương ứng là PaymentTest.cs
+
 ![](./images/01_MSUnitTest02.png)
+
 Ta tạo được một file với nội dung như sau: 
+
 ![](./images/01_MSUnitTest03.png)
+
 Yêu cầu của một test class:
 - Luôn using đến library: Microsoft.VisualStudio.TestTools.UnitTesting
 - attribute [TestClass] là bắt buộc trong Microsoft unit testing framework để khai báo rằng đây là một class test,chứa các test method.
@@ -108,7 +114,9 @@ Việc tách ra làm 3 test method khá rườm rà, tuy nhiên bằng việc t�
 
 ```
 Khi chạy test ta có kết quả sau:
+
 ![](./images/01_MSUnitTest04.png)
+
 DataTestMethod có chút khác biệt so với TestMethod như sau:
 - Có tham số: trong đó các tham số tương ứng với tham số của function, method cần test, tham số cuối cùng chính là kết quả mong muốn nhận được khi thực thi function, method.
 - Mỗi một DataRow tương ứng với một case cần test.
