@@ -1,0 +1,6 @@
+D:\HongTT\source\repos\Restaurant\RestaurantApp.Core\bin\Debug\RestaurantApp.Core.dll
+D:\HongTT\source\repos\Restaurant\RestaurantApp.Core\bin\Debug\RestaurantApp.Core.pdb
+D:\HongTT\source\repos\Restaurant\RestaurantApp.Core\obj\Debug\RestaurantApp.Core.csproj.CoreCompileInputs.cache
+D:\HongTT\source\repos\Restaurant\RestaurantApp.Core\obj\Debug\RestaurantApp.Core.dll
+D:\HongTT\source\repos\Restaurant\RestaurantApp.Core\obj\Debug\RestaurantApp.Core.pdb
+D:\HongTT\source\repos\Restaurant\RestaurantApp.Core\obj\Debug\RestaurantApp.Core.csprojAssemblyReference.cache

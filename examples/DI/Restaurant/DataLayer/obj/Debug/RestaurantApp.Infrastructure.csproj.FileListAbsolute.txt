@@ -1,0 +1,14 @@
+D:\HongTT\source\repos\Restaurant\DataLayer\bin\Debug\RestaurantApp.Infrastructure.dll.config
+D:\HongTT\source\repos\Restaurant\DataLayer\bin\Debug\RestaurantApp.Infrastructure.dll
+D:\HongTT\source\repos\Restaurant\DataLayer\bin\Debug\RestaurantApp.Infrastructure.pdb
+D:\HongTT\source\repos\Restaurant\DataLayer\bin\Debug\EntityFramework.dll
+D:\HongTT\source\repos\Restaurant\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\HongTT\source\repos\Restaurant\DataLayer\bin\Debug\RestaurantApp.Core.dll
+D:\HongTT\source\repos\Restaurant\DataLayer\bin\Debug\RestaurantApp.Core.pdb
+D:\HongTT\source\repos\Restaurant\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\HongTT\source\repos\Restaurant\DataLayer\obj\Debug\RestaurantApp.Infrastructure.csprojAssemblyReference.cache
+D:\HongTT\source\repos\Restaurant\DataLayer\obj\Debug\RestaurantApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\HongTT\source\repos\Restaurant\DataLayer\obj\Debug\RestaurantApp.Infrastructure.csproj.CopyComplete
+D:\HongTT\source\repos\Restaurant\DataLayer\obj\Debug\RestaurantApp.Infrastructure.dll
+D:\HongTT\source\repos\Restaurant\DataLayer\obj\Debug\RestaurantApp.Infrastructure.pdb
+D:\HongTT\source\repos\Restaurant\DataLayer\bin\Debug\EntityFramework.xml

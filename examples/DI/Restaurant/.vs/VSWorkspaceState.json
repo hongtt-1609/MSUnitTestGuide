@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DataLayer",
+    "\\RestaurantApp.Web\\Controllers",
+    "\\RestaurantApp.Web\\Views",
+    "\\RestaurantApp.Web\\Views\\Orders"
+  ],
+  "SelectedNode": "\\DataLayer\\VitualRestaurantContext.cs",
+  "PreviewInSolutionExplorer": false
+}
