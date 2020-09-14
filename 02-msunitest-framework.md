@@ -122,6 +122,23 @@ DataTestMethod có chút khác biệt so với TestMethod như sau:
 - Mỗi một DataRow tương ứng với một case cần test.
 - Tuy nhiên cần lưu ý rằng, kiểu dữ liệu sử dụng trong DataRow chỉ nhận các kiểu dữ liệu nguyên thủy: boolean , char , byte , short ,int ,long , float, double.
 Việc sử dụng DataTestMethod thực sự có ý nghĩa trong việc test với các giá trị biên, với các function chứa nhiều logic if-else, switch-case.
+
+# f. Run Test
+Sau khi hoàn thành xong các Test Method, mở Test Explorer để kiểm tra các test method.
+Trên toolbar, chọn Test => Test Explorer.
+
+![](./images/01_MSUnitTest05.png)
+
+Visual sẽ mở Test Explorer ở một cửa sổ mới, trong đó liệt kê toàn bộ các Test Method mà đã được viết.
+
+Chọn 
+![](./images/01_MSUnitTest06.png) 
+ để chạy toàn bộ các test method, hoặc
+![](./images/01_MSUnitTest07.png)
+ để chạy từng method cụ thể.
+ 
+Thông qua Test Explorer, chúng ta có thể theo dõi được cụ thể trạng thái Pass, Fail của test method, điều tra nguyên nhân khiến test method fail một cách cụ thể.
+
 ---
 1. [Giới thiệu về unit test](./01-introduction-to-unit-testing.md)
 2. [MS Unit test framework](./02-msunitest-framework.md)
